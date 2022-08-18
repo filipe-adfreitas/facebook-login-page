@@ -1,2 +1,60 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-login-page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="facebook-login-page.css">
+</head>
+
+<body>
+    <main>
+        <div class="row">
+            <div class="colum-logo">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="logo">
+                <h2> Facebook helps you conect and share with the people in your life. </h2>
+            </div>
+            <div class="colum-form">
+                <form class="form-container" action="" method="get">
+                    <input type="text" placeholder="Email address or phone number">
+                    <input type="password" placeholder="Password">
+                    <button class="btn-login">Login</button>
+                    <a class="btn-link"
+                        href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">
+                        Forgotten password? </a>
+                    <hr>
+                    <button class="btn-new"> Create new Account </button>
+                </form>
+                <p><a class="txt-link" href="https://www.facebook.com/reg/"><b>Create a page </b></a>for celebrity,
+                    brand or business</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <ol>
+                <li><a class="footer-link" href="#">English (UK)</a></li>
+                <li><a class="footer-link" href="#">മലയാളം</a></li>
+                <li><a class="footer-link" href="#">தமிழ்</a></li>
+                <li><a class="footer-link" href="#">తెలుగు</a></li>
+                <li><a class="footer-link" href="#">বাংলা</a></li>
+                <li><a class="footer-link" href="#">اردو</a></li>
+                <li><a class="footer-link" href="#">हिन्दी</a></li>
+                <li><a class="footer-link" href="#">ಕನ್ನಡ</a></li>
+                <li><a class="footer-link" href="#">Español</a></li>
+                <li><a class="footer-link" href="#">Português (Brasil)</a></li>
+                <li><a class="footer-link" href="#">Français (France)</a></li>
+                <li><button class="footer-button">+</button></li>
+            </ol>
+            <hr>
+            <small>Facebook © 2022</small>
+        </div>
+    </footer>
+</body>
+
+</html>
